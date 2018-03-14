@@ -1,0 +1,28 @@
+{
+  "//1": "Uses express for serving and routing, node-fetch for fetch api",
+  
+  "name": "image-search-api",
+  "version": "0.0.1",
+  "description": "Image Search Api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "node-fetch": "^2.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
